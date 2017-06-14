@@ -12,6 +12,6 @@ public class MainClass06 {
 		dto2.setNum(2);
 		dto2.setName("해골");
 		dto2.setAddr("행신동");
-		
+		//ㅇ새
 	}
 }
