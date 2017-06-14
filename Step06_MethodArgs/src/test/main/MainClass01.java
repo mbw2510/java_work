@@ -11,7 +11,6 @@ public class MainClass01 {
 		//
 		new MainClass01().test3();
 		//new+클래스명 -> ID값으로 변경된다.
-		new MainClass01().test3();
 	}
 	public static void test1(){
 		

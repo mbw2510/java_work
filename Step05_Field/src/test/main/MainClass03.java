@@ -10,6 +10,7 @@ public class MainClass03 {
 		//Util 클래스의 static 멤버 메소드 호출
 		Util.sendMessage();
 		
+		System.out.println(a);
 		System.out.println("메인메소드가 리턴됩니다.");
 	}
 }

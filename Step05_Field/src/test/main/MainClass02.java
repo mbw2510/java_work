@@ -13,5 +13,6 @@ public class MainClass02 {
 		String a = c1.brand;
 		String b = c2.brand;
 		System.out.println(c1.brand);
+		System.out.println(c2.brand);
 	}
 }
