@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.datatools.sqltools.result.preferences.maxdisplayrowcount=1000
+org.eclipse.datatools.sqltools.result.preferences.maxrowcount=1000

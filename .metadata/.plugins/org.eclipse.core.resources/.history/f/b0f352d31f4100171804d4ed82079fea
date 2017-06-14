@@ -1,0 +1,27 @@
+package test.main;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class MainClass07 {
+	public static void main(String[] args) {
+		//필요한 객체를 담을 변수 만들기
+		FileInputStream fis = null;
+		FileOutputStream fos = null;
+		
+		try {
+			//필요한 객체를 생성해서 참조값을 변수에 담기
+			fis=new FileInputStream("c:/myFolder/myImage.jpg");
+			fos=new FileOutputStream("c:/myFolder/myImage2.jpg");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			try {
+				fos.close();
+				fis.close();
+			} catch (Exception e) {}
+		}
+	}
+}

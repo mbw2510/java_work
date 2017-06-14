@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Oracle_SQL&apos;" deleteContents="false" description="Delete resource &apos;Oracle_SQL&apos;" element1="/Oracle_SQL" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496801805926"/>
+</session>
