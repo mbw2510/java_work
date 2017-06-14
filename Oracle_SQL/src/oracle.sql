@@ -8,6 +8,7 @@ SELECT EMP_ID,
 		EMP_NAME,
 		'재직'AS근무여부
 FROM EMPLOYEE;
+방명록
 1.다녀갑니다.
 2.으에에
 
