@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/*
+/* 오 된건가??
  * JDBC(Java DataBase Connectivity)
  * 
  * -java 와 database 연동하기
