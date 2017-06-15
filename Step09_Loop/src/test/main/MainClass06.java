@@ -26,10 +26,10 @@ public class MainClass06 {
 			
 			System.out.println(j);
 			j++;
-//			if(j==5){
-//				//인접한 반복문 블럭 탈출하기
-//				break;
-//			}
+			if(j==5){
+				//인접한 반복문 블럭 탈출하기
+				break;
+			}
 		}
 	}
 }

@@ -30,7 +30,7 @@ public class MainClass05 {
 		//확장 for문을 이용해서 Beer객체의 drink()메소드를 호출해보세요.
 		for(Beer bang:beers){
 			Beer hwang = bang;
-			bang.drink();
+			hwang.drink();
 		}
 	}
 }
