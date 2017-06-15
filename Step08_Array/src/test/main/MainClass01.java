@@ -17,14 +17,16 @@ public class MainClass01 {
 		//기본데이터 타입 배열과 String 타입 배열에는 약간의 차이가 있다.
 		//디버그 모드로 확인하라		
 		int[] nums3=new int[5];
-		//각각의 인덱스를 참조해서 대입연산자로 값 대입하기
+		//int type 밸류를 받을 수 있는 5개 칸짜리 객체를 생성
+		
+		//각각의 인덱스를 참조해서 대입연산자로 값 대입하기		
 		nums3[0]=10;
 		nums3[1]=20;
 		nums3[2]=30;
-		
-		//int type 밸류를 받을 수 있는 5개 칸짜리 객체를 생성
-		String[] names2=new String[3];
+
 		//String type을 담을 수 있는 방 5개짜리 배열객체 생성
+		String[] names2=new String[3];
+
 		//각각의 인덱스를 참조해서 대입연산자로 String type data 대입하기
 		names2[0]="kim";
 		names2[1]="lee";

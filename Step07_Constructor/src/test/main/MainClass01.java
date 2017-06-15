@@ -8,6 +8,8 @@ public class MainClass01 {
 		//기본생성자-정의하지않아도 존재한다. new같은것 
 		new Car();
 		new Car().drive();
+		Object b = test.mypac.Car.Shoot();
+		
 		Car a=new Car();
 		a.drive();
 		a.drive();

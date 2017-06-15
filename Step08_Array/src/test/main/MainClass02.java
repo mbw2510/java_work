@@ -2,9 +2,12 @@ package test.main;
 
 public class MainClass02 {
 	public static void main(String[] args) {
+	
+		//3개의 방의 갯수를 가지고 있는 int배열 객체를 생성
 		int[] nums=new int[3];
-		//배열객체에는 방의 갯수를 가지고 있는
-		int a=nums.length;// 3이 참조된다.
+
+		int a=nums.length;//배열의 크기인 3이 참조된다.
+		
 		//각각의 방에 11, 12, 13을 저장해보세요.
 		nums[0]=11;
 		nums[1]=12;

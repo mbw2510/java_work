@@ -8,6 +8,7 @@ public class MainClass07 {
 	public static void main(String[] args) {
 		//test1, test2 메소드를 각각 호출해보세요
 		Car a = new Car();
+		Orange o = new Orange();
 		test1(a);
 		Apple b = new Apple();
 		test2(b);
@@ -18,6 +19,7 @@ public class MainClass07 {
 		test3(null);
 		test2(null);
 		test1(null);
+		test3(o);
 		
 		Car car3=null;
 		//참조데이터 타입이 담길수 있는 빈공간을 null이라고 한다.

@@ -15,6 +15,11 @@ public class Car {
 		System.out.println("Car() 생성자 호출됨!");
 	}
 	
+	public static int Shoot(){
+		System.out.println("뭔가요");
+		return 1;
+	}
+	
 	//메소드랑의 차이점을 찾아보라
 	public void drive(){//void 리턴타입 정의
 		System.out.println("드라이브 메소드 호출됨!");
